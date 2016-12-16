@@ -1,6 +1,6 @@
 <h2>Projects</h2>
 {{#each model as |project|}}
-  {{project.title}}<br>
+  {{link-to project.title "project" project}}<br>
 {{/each}}
 
 {{outlet}}
